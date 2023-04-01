@@ -48,7 +48,8 @@ body {
 }
 
 .logo {
-    width: 25%;
+    width: 24%;
+    margin-top: 20px;
 }
 
 .sessao_um {
