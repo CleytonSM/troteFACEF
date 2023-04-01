@@ -64,10 +64,13 @@ body {
 
 .sessao_um {
     display: flex;
+    align-items: center;
 }
 
 .sessao_um a {
     text-decoration: none;
+    text-align: center;
+    flex-grow: 1;
 }
 
 .lista {
@@ -76,7 +79,7 @@ body {
     border-radius: 20px;
     margin: 10px;
     display: block;
-    width: 160px;
+    width: 130px;
     background: var(--bg-button);
     transition: 0.2s;
 }
