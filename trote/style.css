@@ -1,21 +1,29 @@
 * {
     padding: 0;
     margin: 0;
+    color: var(--text-color);
 }
 
 body {
-    background: url(/trote/assets/fundo-aquarela.jpg) no-repeat;
+    background: var(--bg) no-repeat;
     background-size: cover;
 }
 
+:root {
+    --text-color: black;
+    --bg: url(/trote/assets/fundo-aquarela.jpg);
+    --bg-button: rgb(224, 234, 243);
+}
+
+.dark {
+    --text-color: white;
+    --bg: url(/trote/assets/fundo-aquarela-\ dark.jpg);
+    --bg-button: rgb(59, 59, 59);
+}
 .container {
     width: 600px;
     margin: 0 auto;
     text-align: center;
-}
-
-.logo {
-    width: 25%;
 }
 
 .botao {
@@ -23,6 +31,10 @@ body {
     width: 60px;
     height: 20px;
     border-radius: 10px;
+}
+
+.logo {
+    width: 25%;
 }
 
 .sessao_um {
@@ -36,7 +48,13 @@ body {
     margin: 10px;
     display: block;
     width: 160px;
+    background: var(--bg-button);
+    transition: 0.2s;
+}
 
+.lista:hover {
+    cursor: pointer;
+    opacity: 0.5;
 }
 
 .container-dos-buttons {
@@ -48,5 +66,82 @@ body {
     border: 1px solid black;
     padding: 5px;
     border-radius: 100px;
-    background: gray;
+    background: var(--bg-button);
+    font
 }
+
+/* 
+
+* {
+    padding: 0;
+    margin: 0;
+    color: var(--text-color);
+}
+
+body {
+    background: var(--bg) no-repeat;
+    background-size: cover;
+}
+
+:root {
+    --text-color: black;
+    --bg: url(/trote/assets/fundo-aquarela.jpg);
+    --bg-button: rgb(224, 234, 243);
+}
+
+.dark {
+    --text-color: white;
+    --bg: url(/trote/assets/fundo-aquarela-\ dark.jpg);
+    --bg-button: rgb(59, 59, 59);
+}
+.container {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.botao {
+    margin: 15px 0;
+    width: 60px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.logo {
+    width: 25%;
+}
+
+.sessao_um {
+    display: flex;
+}
+
+.lista {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    display: block;
+    width: 160px;
+    background: var(--bg-button);
+    transition: 0.2s;
+}
+
+.lista:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.container-dos-buttons {
+    width: 600px;
+    height: 200px;
+}
+
+.social-links {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 100px;
+    background: var(--bg-button);
+    font
+}
+
+*/
