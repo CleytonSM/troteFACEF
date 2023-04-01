@@ -11,14 +11,20 @@ body {
 
 :root {
     --text-color: black;
-    --bg: url(/trote/assets/fundo-aquarela.jpg);
+    --bg: url(/trote/assets/fundo-roxo.jpg);
     --bg-button: rgb(224, 234, 243);
+    --bg-button-border: black;
+    --switch-bg-theme: url(/trote/assets/sol.png);
+    --bg-switch: rgb(224, 234, 243);
 }
 
 .dark {
     --text-color: white;
-    --bg: url(/trote/assets/fundo-aquarela-\ dark.jpg);
-    --bg-button: rgb(59, 59, 59);
+    --bg: url(/trote/assets/fundo-preto.jpg);
+    --bg-button: rgb(101, 114, 112);
+    --bg-button-border: white;
+    --switch-bg-theme: url(/trote/assets/lua-crescente.png);
+    --bg-switch: rgb(101, 114, 112);
 }
 .container {
     width: 600px;
@@ -26,11 +32,19 @@ body {
     text-align: center;
 }
 
+.switch {
+    position: relative;
+    width: 64px;
+    margin: 0 auto;
+}
+
 .botao {
     margin: 15px 0;
     width: 60px;
     height: 20px;
     border-radius: 10px;
+    background: var(--bg-switch) var(--switch-bg-theme) no-repeat center;
+    background-size: 27%;
 }
 
 .logo {
@@ -43,7 +57,7 @@ body {
 
 .lista {
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid var(--bg-button-border);
     border-radius: 20px;
     margin: 10px;
     display: block;
@@ -67,9 +81,17 @@ body {
     padding: 5px;
     border-radius: 100px;
     background: var(--bg-button);
-    font
+    font-size: 20px;
+    transition: 0.2s;
 }
 
+.social-links:hover {
+    opacity: 0.5;
+}
+
+.grupo {
+    color: white
+}
 /* 
 
 * {
@@ -87,6 +109,7 @@ body {
     --text-color: black;
     --bg: url(/trote/assets/fundo-aquarela.jpg);
     --bg-button: rgb(224, 234, 243);
+    --switch-bg-theme: url(/trote/assets/sunny-outline.svg);
 }
 
 .dark {
@@ -100,11 +123,18 @@ body {
     text-align: center;
 }
 
+.switch {
+    position: relative;
+    width: 64px;
+    margin: 0 auto;
+}
+
 .botao {
     margin: 15px 0;
     width: 60px;
     height: 20px;
     border-radius: 10px;
+    background: white var(--switch-bg-theme) no-repeat center;
 }
 
 .logo {
@@ -141,7 +171,7 @@ body {
     padding: 5px;
     border-radius: 100px;
     background: var(--bg-button);
-    font
+    font-size: 20px;
 }
 
 */
