@@ -114,6 +114,14 @@ body {
 .equipes {
     margin: auto;
 }
+
+.equipes th, td, tr {
+    width: 200px;
+    height: 40px;
+    padding: 6px;
+    margin-top: 20px;
+    border: 1px solid rgb(172, 213, 230);
+}
 /* 
 
 * {
