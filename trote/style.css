@@ -13,6 +13,9 @@ body {
     --text-color: black;
     --bg: url(/trote/assets/fundo-roxo.jpg);
     --bg-button: rgb(224, 234, 243);
+    --bg-button-border: black;
+    --switch-bg-theme: url(/trote/assets/sol.png);
+    --bg-switch: rgb(224, 234, 243);
 }
 
 .dark {
@@ -40,6 +43,8 @@ body {
     width: 60px;
     height: 20px;
     border-radius: 10px;
+    background: var(--bg-switch) var(--switch-bg-theme) no-repeat center;
+    background-size: 27%;
 }
 
 .logo {
@@ -76,11 +81,16 @@ body {
     padding: 5px;
     border-radius: 100px;
     background: var(--bg-button);
-    font
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.social-links:hover {
+    opacity: 0.5;
 }
 
 .grupo {
-    color: white
+    color: white;
 }
 /* 
 
