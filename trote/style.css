@@ -11,12 +11,12 @@ body {
 
 :root {
     --text-color: black;
-    --bg: url(/trote/assets/fundo-roxo.jpg);
-    --bg-button: rgb(224, 234, 243);
+    --bg: url(/trote/assets/fundo-azul.jpg);
+    --bg-button: rgb(184, 194, 203);
     --bg-button-border: black;
     --switch-bg-theme: url(/trote/assets/sol.png);
-    --bg-switch: rgb(224, 234, 243);
-    --text-color-inferior: rgb(107, 43, 107);
+    --bg-switch: rgb(184, 194, 203);
+    --text-color-inferior: rgb(72, 167, 184);
 }
 
 .dark {
