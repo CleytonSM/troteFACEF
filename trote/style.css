@@ -18,6 +18,7 @@ body {
     --switch-bg-theme: url(/trote/assets/sol.png);
     --bg-switch: rgb(184, 194, 203);
     --text-color-inferior: rgb(172, 213, 230);
+    --table-border-color: rgb(172, 213, 230);
 }
 
 .dark {
@@ -28,6 +29,7 @@ body {
     --switch-bg-theme: url(/trote/assets/lua-crescente.png);
     --bg-switch: rgb(101, 114, 112);
     --text-color-inferior: rgb(151, 151, 151);
+    --table-border-color: rgb(151, 151, 151);
 }
 .container {
     width: 600px;
@@ -120,7 +122,7 @@ body {
     height: 40px;
     padding: 6px;
     margin-top: 20px;
-    border: 1px solid rgb(172, 213, 230);
+    border: 1px solid var(--table-border-color);
 }
 /* 
 
