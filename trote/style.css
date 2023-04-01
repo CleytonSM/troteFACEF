@@ -13,6 +13,7 @@ body {
     --text-color: black;
     --bg: url(/trote/assets/fundo-aquarela.jpg);
     --bg-button: rgb(224, 234, 243);
+    --switch-bg-theme: url(/trote/assets/sunny-outline.svg);
 }
 
 .dark {
@@ -26,11 +27,18 @@ body {
     text-align: center;
 }
 
+.switch {
+    position: relative;
+    width: 64px;
+    margin: 0 auto;
+}
+
 .botao {
     margin: 15px 0;
     width: 60px;
     height: 20px;
     border-radius: 10px;
+    background: white var(--switch-bg-theme) no-repeat center;
 }
 
 .logo {
@@ -67,7 +75,7 @@ body {
     padding: 5px;
     border-radius: 100px;
     background: var(--bg-button);
-    font
+    font-size: 20px;
 }
 
 /* 
