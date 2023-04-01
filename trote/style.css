@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+    width: 25%;
+}
+
+.sessao_um {
+    display: flex;
+}
+
+.lista {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    display: block;
+    width: 160px;
+
+}
+
+.container-dos-buttons {
+    width: 600px;
+    height: 200px;
+}
+
+.social-links {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 100px;
+    background: gray;
+}

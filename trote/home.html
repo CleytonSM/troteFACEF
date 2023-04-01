@@ -1,53 +1,35 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="trote.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
-    
-<link href="https://fonts.googleapis.com/css2?family=Itim&family=Quicksand:wght@300&display=swap" rel="stylesheet">
-    <title>Trote Solidário</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Trote</title>
 </head>
 <body>
     <div class="container">
-        <h1><img class="img_trote" id="img_trote" src="/assets/logotrote.png" alt="imagem_trote"></h1>
-        <div class="switch" id="switch" onclick="trocaSwitch()">
-            <button>                 
-                  
-            </button>
-            <span class="span">
-
-            </span>
-        </div>
-        <section class="portifolio">
-            <ul>
-                <li class="lista"><a class="ancoras_list_um" href="">Equipes</a></li>
-                <li class="lista"><a class="ancoras_list_um" href="">Regras</a></li>
-                <li class="lista"><a class="ancoras_list" href="">Gincana</a></li>
-                <li class="lista"><a class="ancoras_list" href="">Integração</a></li>
-            </ul>
-        </section>
+        <h1><img class="logo" src="/trote/assets/logotrote.png" alt="logotrote"></h1>
+            <section class="sessao_um">
+                    <button class="lista"> Equipes</button>
+                    <button class="lista"> Regras</button>
+                    <button class="lista"> Calculadora</button>
+                    <button class="lista"> Integração</button> <!-- Citar Gincana dentro da integração -->
+            </section>
+            <section class="container-dos-buttons"></section>
+            <section class="sessao_dois">
+                <a href="https://github.com/CleytonSM/troteFACEF"><ion-icon class="social-links" name="logo-github"></ion-icon></a>
+                <a href="https://github.com/CleytonSM/troteFACEF"><ion-icon class="social-links" name="logo-youtube"></ion-icon></a>
+                <a href="https://github.com/CleytonSM/troteFACEF"><ion-icon class="social-links" name="logo-linkedin"></ion-icon></a>
+                <a href="https://github.com/CleytonSM/troteFACEF"><ion-icon class="social-links" name="logo-instagram"></ion-icon></a>
+            </section>
+            <footer>
+                    <p>Desenvolvivo por Cleyton Souza Martins, Maria Julia Facirolli e Gabriel Ribeiro</p>
+            </footer>
     </div>
 
-    <div class="container_dois">
-        <div class="redes-sociais">
-                <a target="_blank" href="https://github.com/CleytonSM"><ion-icon class="icons" name="logo-github"></ion-icon></a>
-                <a target="_blank" href="https://www.instagram.com/unifacef/"><ion-icon class="icons" name="logo-instagram"></ion-icon></a>
-                <a target="_blank" href="https://www.youtube.com/@tvunifacef"><ion-icon class="icons" name="logo-youtube"></ion-icon></a>
-                <a target="_blank" href="https://www.linkedin.com/in/cleyton-souza-martins-b510b5263/"><ion-icon class="icons" name="logo-linkedin"></ion-icon></a>
-        </div>
-    </div>
-    <footer>
-        <p class="autoria">Desenvolvido por Cleyton Souza Martins, Maria Julia Facirolli, Matheus Rodrigues Junqueira e Gabriel Ribeiro do curso de bacharelado em CC do Uni-FACEF.</p>
-    </footer>
-
+    <script src="scripts.js"> </script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="main.js"></script>
-    sei lá 
 </body>
 </html>
