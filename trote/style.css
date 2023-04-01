@@ -16,6 +16,7 @@ body {
     --bg-button-border: black;
     --switch-bg-theme: url(/trote/assets/sol.png);
     --bg-switch: rgb(224, 234, 243);
+    --text-color-inferior: rgb(107, 43, 107);
 }
 
 .dark {
@@ -25,6 +26,7 @@ body {
     --bg-button-border: white;
     --switch-bg-theme: url(/trote/assets/lua-crescente.png);
     --bg-switch: rgb(101, 114, 112);
+    --text-color-inferior: rgb(80, 79, 80);
 }
 .container {
     width: 600px;
@@ -85,7 +87,7 @@ body {
 }
 
 .social-links {
-    color: rgb(107, 43, 107);
+    color: var(--text-color-inferior);
     padding: 5px;
     border-radius: 100px;
     font-size: 20px;
@@ -99,7 +101,7 @@ body {
 }
 
 .grupo {
-    color: rgb(107, 43, 107);
+    color: var(--text-color-inferior);
     margin-top: 8px;
     margin-bottom: 8px;
     
