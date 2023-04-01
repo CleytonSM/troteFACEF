@@ -18,6 +18,13 @@ body {
     width: 25%;
 }
 
+.botao {
+    margin: 15px 0;
+    width: 60px;
+    height: 20px;
+    border-radius: 10px;
+}
+
 .sessao_um {
     display: flex;
 }
