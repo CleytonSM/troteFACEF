@@ -66,6 +66,10 @@ body {
     display: flex;
 }
 
+.sessao_um a {
+    text-decoration: none;
+}
+
 .lista {
     padding: 10px;
     border: 1px solid var(--bg-button-border);
