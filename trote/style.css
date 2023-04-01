@@ -17,7 +17,7 @@ body {
     --bg-button-border: black;
     --switch-bg-theme: url(/trote/assets/sol.png);
     --bg-switch: rgb(184, 194, 203);
-    --text-color-inferior: rgb(117, 166, 185);
+    --text-color-inferior: rgb(172, 213, 230);
 }
 
 .dark {
@@ -27,7 +27,7 @@ body {
     --bg-button-border: white;
     --switch-bg-theme: url(/trote/assets/lua-crescente.png);
     --bg-switch: rgb(101, 114, 112);
-    --text-color-inferior: rgb(94, 92, 94);
+    --text-color-inferior: rgb(151, 151, 151);
 }
 .container {
     width: 600px;
