@@ -65,6 +65,8 @@ body {
     transition: 0.2s;
     background: var(--bg-switch);
     font-weight: bold;
+    margin-left: 2px;
+    
 }
 
 .botao:hover, .botao_home {
@@ -250,11 +252,3 @@ body {
     background: var(--bg-button);
 }
 
-.entidades h3 {
-    margin-top: 15px;
-}
-
-.entidades p {
-    margin-top: 15px;
-    text-align: left;
-}
