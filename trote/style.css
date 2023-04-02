@@ -44,7 +44,7 @@ body {
 }
 
 .botao{
-    margin: 15px 0;
+    margin: 6px 0;
     width: 60px;
     height: 20px;
     border: 1px solid black;
@@ -56,7 +56,7 @@ body {
 }
 
 .botao_home {
-    margin: 15px 0;
+    margin: 6px 0;
     width: 60px;
     height: 20px;
     border: 1px solid black;
@@ -126,7 +126,8 @@ body {
 }
 
 .equipes {
-    margin: auto;
+    margin: 20px auto;
+    background: var(--bg-button);
 }
 
 .equipes th, td, tr {
@@ -135,6 +136,7 @@ body {
     padding: 6px;
     margin-top: 20px;
     border: 1px solid var(--table-border-color);
+    color: black;
 }
 
 #red {
@@ -155,55 +157,4 @@ body {
 
 #purple {
     background-color: rgba(113, 2, 123, 0.814);
-}
-
-.regras {
-    text-align: center;
-}
-
-.regras {
-    display: flex;
-}
-  
-.kit {
-    margin: 0 auto;
-    width: 80%;
-    list-style-type: none;
-}
-  
-.container_tabela_pontos {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.container_tabela_pontos p {
-    margin-top: 10px;
-}
-
-.sessao_um_regras {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-}
-
-.sessao_um_regras a {
-    text-decoration: none;
-    text-align: center;
-    flex-grow: 1;
-}
-
-.lista_regras {
-    padding: 10px;
-    border: 1px solid var(--bg-button-border);
-    border-radius: 20px;
-    margin: 10px;
-    display: block;
-    width: 130px;
-    background: var(--bg-button);
-    transition: 0.2s;
-}
-
-.lista_regras:hover {
-    cursor: pointer;
-    opacity: 0.5;
 }

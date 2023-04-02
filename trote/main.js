@@ -1,4 +1,4 @@
-var switchBtn = document.getElementById('botao');
+const switchBtn = document.getElementById('botao');
 
 switchBtn.addEventListener('click', event => {
     event.preventDefault();
