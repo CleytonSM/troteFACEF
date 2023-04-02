@@ -131,38 +131,50 @@ body {
     
 }
 
-.equipes tr {
+.equipes {
+    background-color: #f9f9f9;
+    border-collapse: separate;
+    border-spacing: 0;
     border-radius: 10px;
-}
-.equipes th, td, tr {
-    width: 200px;
-    height: 40px;
-    padding: 6px;
-    margin-top: 20px;
-    border: 1px solid var(--table-border-color);
+    overflow: hidden;
+  }
+
+  .equipes th, td, tr {
     color: black;
 }
 
-#red {
-    background-color: rgb(255, 0, 0);
-}
+  .equipes td {
+    border: 1px solid #979696;
+    padding: 8px;
+  }
 
-#orange {
-    background-color: rgb(255, 166, 0);
-}
+  .equipes tr:first-child {
+    background-color: var(--bg-button);
+    color: white;
+  }
 
-#yellow {
-    background-color: rgb(243, 219, 39);
-}
+  .equipes tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
 
-#green {
-    background-color: rgb(48, 153, 10);
-}
-
-#purple {
-    background-color: rgba(113, 2, 123, 0.814);
-}
-
+  #red, #orange, #yellow, #green, #purple {
+    color: rgb(0, 0, 0);
+  }
+  #red {
+    background-color: #ff6666;
+  }
+  #orange {
+    background-color: #ffa64d;
+  }
+  #yellow {
+    background-color: #f4df3d;
+  }
+  #green {
+    background-color: #58e058;
+  }
+  #purple {
+    background-color: #ac63f5;
+  }
 
 .regras {
     text-align: center;
@@ -238,3 +250,11 @@ body {
     background: var(--bg-button);
 }
 
+.entidades h3 {
+    margin-top: 15px;
+}
+
+.entidades p {
+    margin-top: 15px;
+    text-align: left;
+}
