@@ -78,7 +78,6 @@ body {
 }
 
 .sessao_um {
-    display: flex;
     align-items: center;
 }
 
@@ -92,7 +91,7 @@ body {
     padding: 10px;
     border: 1px solid var(--bg-button-border);
     border-radius: 20px;
-    margin: 10px;
+    margin: 10px auto;
     display: block;
     width: 130px;
     background: var(--bg-button);
@@ -156,4 +155,55 @@ body {
 
 #purple {
     background-color: rgba(113, 2, 123, 0.814);
+}
+
+.regras {
+    text-align: center;
+}
+
+.regras {
+    display: flex;
+}
+  
+.kit {
+    margin: 0 auto;
+    width: 80%;
+    list-style-type: none;
+}
+  
+.container_tabela_pontos {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container_tabela_pontos p {
+    margin-top: 10px;
+}
+
+.sessao_um_regras {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.sessao_um_regras a {
+    text-decoration: none;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.lista_regras {
+    padding: 10px;
+    border: 1px solid var(--bg-button-border);
+    border-radius: 20px;
+    margin: 10px;
+    display: block;
+    width: 130px;
+    background: var(--bg-button);
+    transition: 0.2s;
+}
+
+.lista_regras:hover {
+    cursor: pointer;
+    opacity: 0.5;
 }
