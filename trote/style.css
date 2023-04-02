@@ -63,7 +63,8 @@ body {
     border-radius: 10px;
     background-size: 27%;
     transition: 0.2s;
-    background: var(--bg-switch)
+    background: var(--bg-switch);
+    font-weight: bold;
 }
 
 .botao:hover, .botao_home {
