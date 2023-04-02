@@ -44,7 +44,7 @@ body {
 }
 
 .botao{
-    margin: 15px 0;
+    margin: 6px 0;
     width: 60px;
     height: 20px;
     border: 1px solid black;
@@ -56,7 +56,7 @@ body {
 }
 
 .botao_home {
-    margin: 15px 0;
+    margin: 6px 0;
     width: 60px;
     height: 20px;
     border: 1px solid black;
@@ -127,7 +127,8 @@ body {
 }
 
 .equipes {
-    margin: auto;
+    margin: 20px auto;
+    background: var(--bg-button);
 }
 
 .equipes th, td, tr {
@@ -136,6 +137,7 @@ body {
     padding: 6px;
     margin-top: 20px;
     border: 1px solid var(--table-border-color);
+    color: black;
 }
 
 #red {
@@ -156,4 +158,27 @@ body {
 
 #purple {
     background-color: rgba(113, 2, 123, 0.814);
+}
+
+.calc p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#kits {
+    width: 120px;
+    height: 25px;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding-left: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.calc button {
+    display: block;
+    margin: 15px auto;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background: var(--bg-button);
 }
