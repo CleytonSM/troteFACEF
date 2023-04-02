@@ -252,3 +252,33 @@ body {
     background: var(--bg-button);
 }
 
+.botao_menor {
+    margin: 6px 0;
+    width: 60px;
+    height: 20px;
+    border: 1px solid black;
+    background: var(--bg-switch) var(--switch-bg-theme) no-repeat center;
+    border-radius: 10px;
+    background-size: 27%;
+    transition: 0.2s;
+    margin-right: 2px;
+}
+.botao_home {
+    margin: 6px 0;
+    width: 60px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-size: 27%;
+    transition: 0.2s;
+    background: var(--bg-switch);
+    font-weight: bold;
+    margin-left: 2px;
+    
+}
+.switch_menor {
+    position: relative;
+    width: 120px;
+    margin: 0 auto;
+    display: flex;
+}
