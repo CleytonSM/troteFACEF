@@ -17,8 +17,8 @@ body {
     --bg-button-border: black;
     --switch-bg-theme: url(/trote/assets/sol.png);
     --bg-switch: rgb(184, 194, 203);
-    --text-color-inferior: rgb(172, 213, 230);
-    --table-border-color: rgb(172, 213, 230);
+    --text-color-inferior: rgb(5, 50, 69);
+    --table-border-color: rgb(5, 50, 69);
 }
 
 .dark {
