@@ -43,18 +43,30 @@ body {
     margin: 0 auto;
 }
 
-.botao {
+.botao{
+    margin: 15px 0;
+    width: 60px;
+    height: 20px;
+    border: 1px solid black;
+    background: var(--bg-switch) var(--switch-bg-theme) no-repeat center;
+    border-radius: 10px;
+    background-size: 27%;
+    transition: 0.2s;
+    display: inline-block;
+}
+
+.botao_home {
     margin: 15px 0;
     width: 60px;
     height: 20px;
     border: 1px solid black;
     border-radius: 10px;
-    background: var(--bg-switch) var(--switch-bg-theme) no-repeat center;
     background-size: 27%;
     transition: 0.2s;
+    background: var(--bg-switch)
 }
 
-.botao:hover {
+.botao:hover, .botao_home {
     cursor: pointer;
     opacity: 0.77;
 }
