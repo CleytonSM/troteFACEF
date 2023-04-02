@@ -128,8 +128,12 @@ body {
 .equipes {
     margin: 20px auto;
     background: var(--bg-button);
+    
 }
 
+.equipes tr {
+    border-radius: 10px;
+}
 .equipes th, td, tr {
     width: 200px;
     height: 40px;
