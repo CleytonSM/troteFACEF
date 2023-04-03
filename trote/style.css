@@ -327,3 +327,14 @@ body {
     padding: 8px;
     margin: 15px auto;
 }
+
+.noiteencerramento h3 {
+    margin-top: 15px;
+}
+
+.box_encerramento {
+    border: 1px solid var(--text-color-inferior);
+    border-radius: 10px;
+    height: 90px;
+    padding: 8px;
+}
