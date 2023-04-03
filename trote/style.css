@@ -327,3 +327,21 @@ body {
     padding: 8px;
     margin: 15px auto;
 }
+
+.info-adicionais {
+    margin-top: 15px;
+    width: 600px;
+}
+
+.box-adicionais {
+    margin: 10px auto;
+    width: 400px;
+}
+
+.adicionais {
+    list-style-type: none;
+    text-align: left;
+    border: 1px solid var(--text-color-inferior);
+    border-radius: 10px;
+    padding: 8px;
+}
