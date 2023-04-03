@@ -179,25 +179,39 @@ body {
   }
 
 .regras {
-    text-align: center;
-}
-
-.regras {
     display: flex;
 }
-  
-.kit {
+ 
+.meta-equipe {
+    margin-top: 15px;
+}
+
+.meta-equipe h3, .kit  {
     margin: 0 auto;
     width: 80%;
+}
+
+.kit {
     list-style-type: none;
+    margin-top: 20px;
+    text-align: left;
 }
   
 .container_tabela_pontos {
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    width: 200px;
 }
 
-.container_tabela_pontos p {
+.tabela_pontos {
+    border: 1px solid var(--text-color-inferior);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.menor-que-16 {
     margin-top: 10px;
 }
 
