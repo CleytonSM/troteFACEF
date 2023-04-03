@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     background: var(--bg) no-repeat;
     background-size: cover;
@@ -35,6 +39,8 @@ body {
     width: 600px;
     margin: 0 auto;
     text-align: center;
+    position: relative;
+    min-height: 100%;
 }
 
 .switch {
@@ -356,3 +362,11 @@ body {
     border-radius: 10px;
     padding: 8px;
 }
+
+.sessao_dois {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
