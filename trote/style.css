@@ -69,7 +69,7 @@ body {
     
 }
 
-.botao:hover, .botao_home {
+.botao:hover, .botao_home:hover, .botao_menor:hover {
     cursor: pointer;
     opacity: 0.77;
 }
@@ -295,3 +295,4 @@ body {
 .introducao {
     margin: 10px;
 }
+
