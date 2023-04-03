@@ -106,6 +106,10 @@ body {
     transition: 0.2s;
 }
 
+.links-home, .links-regras{
+    cursor: auto;
+}
+
 .lista:hover {
     cursor: pointer;
     opacity: 0.5;
