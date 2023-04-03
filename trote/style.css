@@ -229,6 +229,11 @@ body {
     opacity: 0.5;
 }
 
+.texto_regras {
+    margin-top: 20px;
+    text-align: left ;
+}
+
 .calc p {
     font-size: 20px;
     margin-top: 30px;
