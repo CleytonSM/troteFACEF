@@ -12,6 +12,16 @@ switchBtn.addEventListener('click', event => {
         logo.src = '/trote/assets/logotrote_branco.png'
     }
 })
+
+const explicaBtn = document.getElementById('btn1')
+
+explicaBtn.addEventListener('click', event => {
+    event.preventDefault()
+    var explicaBox = document.getElementById('explicacao')
+    explicaBox.innerHTML = ''
+})
+
+
 const btnCalcular = document.getElementById('calcular')
 btnCalcular.addEventListener('click', event => {
     event.preventDefault();
