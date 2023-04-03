@@ -282,3 +282,7 @@ body {
     margin: 0 auto;
     display: flex;
 }
+
+.introducao {
+    margin: 10px;
+}
