@@ -13,15 +13,6 @@ switchBtn.addEventListener('click', event => {
     }
 })
 
-const explicaBtn = document.getElementById('btn1')
-
-explicaBtn.addEventListener('click', event => {
-    event.preventDefault()
-    var explicaBox = document.getElementById('explicacao')
-    explicaBox.innerHTML = ''
-})
-
-
 const btnCalcular = document.getElementById('calcular')
 btnCalcular.addEventListener('click', event => {
     event.preventDefault();
