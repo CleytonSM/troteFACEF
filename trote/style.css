@@ -282,3 +282,12 @@ body {
     margin: 0 auto;
     display: flex;
 }
+
+.entidades h3 {
+    margin-top: 15px;
+}
+
+.entidades p {
+    margin-top: 15px;
+    text-align: left;
+}
