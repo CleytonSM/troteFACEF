@@ -1,17 +1,24 @@
 const switchBtn = document.getElementById('botao');
+const html = document.documentElement;
+const logo = document.getElementById('logo');
 
-switchBtn.addEventListener('click', event => {
-    event.preventDefault();
-    var html = document.documentElement
-    var logo = document.getElementById('logo')
-    if (html.classList.contains("dark")){
-        html.classList.remove("dark")
-        logo.src = '/trote/assets/logotrote.png'
-    } else {
-        html.classList.add("dark")
-        logo.src = '/trote/assets/logotrote_branco.png'
-    }
-})
+if (localStorage.getItem('darkModeEnabled') === 'true') {
+  html.classList.add('dark');
+  logo.src = '/trote/assets/logotrote_branco.png';
+}
+
+switchBtn.addEventListener('click', () => {
+  if (html.classList.contains('dark')) {
+    html.classList.remove('dark');
+    logo.src = '/trote/assets/logotrote.png';
+    localStorage.setItem('darkModeEnabled', 'false');
+  } else {
+    html.classList.add('dark');
+    logo.src = '/trote/assets/logotrote_branco.png';
+    localStorage.setItem('darkModeEnabled', 'true');
+  }
+});
+
 
 const btnCalcular = document.getElementById('calcular')
 btnCalcular.addEventListener('click', event => {
