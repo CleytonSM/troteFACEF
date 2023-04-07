@@ -369,15 +369,8 @@ body {
 
 .kits {
     border: 1px solid var(--bg-button-border);
-}
-
-.calcular {
-    border: 1px solid var(--bg-button-border);
-    transition: 0.2s;
-}
-.calcular:hover {
-    cursor: pointer;
-    opacity: 0.65;
+    display: block;
+    margin: 0 auto;
 }
 
 .calc {
@@ -386,4 +379,20 @@ body {
     border-radius: 20px;
     padding: 15px;
     margin: 10px 20px;
+    transition: 0.2s;
+}
+
+.calc:hover {
+    cursor: pointer;
+    opacity: 0.65;
+}
+
+.calculaBtn {
+    margin-top: 20px;
+    padding: 7px;
+    border: 1px solid var(--bg-button-border);
+    background: var(--bg-button);
+    border-radius: 8px;
+    width: 90px;
+    
 }
