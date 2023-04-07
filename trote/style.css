@@ -366,3 +366,24 @@ body {
     border-radius: 10px;
     padding: 8px;
 }
+
+.kits {
+    border: 1px solid var(--bg-button-border);
+}
+
+.calcular {
+    border: 1px solid var(--bg-button-border);
+    transition: 0.2s;
+}
+.calcular:hover {
+    cursor: pointer;
+    opacity: 0.65;
+}
+
+.calc {
+    background: var(--bg-button);
+    border: 1px solid var(--bg-button-border);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px 20px;
+}
