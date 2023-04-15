@@ -17,10 +17,43 @@
             <section class="switch_menor">
                     <button class="botao_menor" id="botao"> </button> <a href="/trote/calculadoras.html"><button class="botao_home">Calc</button></a>
                     <span> </span>
-            </section>
-            <section class="">
-                <p>Informe a quantidade de kits entregues pela sua equipe:</p> 
-                <input class="kits" type="number" id="kits">
+                </section>
+                <section class="calcadd">
+                    <div class="divadd">
+                        <input type="checkbox" id="ensure" name="ensure">
+                        <label for="ensure"> Suplemento baunilha 0.4kg (Ensure)</label>
+                        <input class="quantidade" type="number" id="ensure_quantity" name="ensure_quantity" min="0" max="999" value="0"><br>
+                        
+                        <input type="checkbox" id="macarrao" name="macarrao">
+                        <label for="macarrao">Pacote de macarrão de 0.5kg</label>
+                        <input class="quantidade" type="number" id="macarrao_quantity" name="macarrao_quantity" min="0" max="999" value="0"><br>
+                        
+                        
+                        <input type="checkbox" id="arroz5" name="arroz5">
+                        <label for="arroz5">Pacote de arroz 05 Kg</label>
+                        <input class="quantidade" type="number" id="arroz5_quantity" name="arroz5_quantity" min="0" max="999" value="0"><br>
+                        
+                        <input type="checkbox" id="arroz1" name="arroz1">
+                        <label for="arroz1">Pacote de arroz 01 Kg</label>
+                        <input class="quantidade" type="number" id="arroz1_quantity" name="arroz1_quantity" min="0" max="999" value="0"><br>
+                        
+                        <input type="checkbox" id="feijao2" name="feijao2">
+                        <label for="feijao2">Pacote de feijão 02 Kg</label>
+                        <input class="quantidade" type="number" id="feijao2_quantity" name="feijao2_quantity" min="0" max="999" value="0"><br>
+                        
+                        <input type="checkbox" id="feijao1" name="feijao1">
+                        <label for="feijao1">Pacote de feijão 01 Kg</label>
+                        <input class="quantidade" type="number" id="feijao1_quantity" name="feijao1_quantity" min="0" max="999" value="0"><br>
+                        
+                        <input type="checkbox" id="kit" name="kit">
+                        <label for="kit">Kit alimentação</label>
+                        <input class="quantidade" type="number" id="kit_quantity" name="kit_quantity" min="0" max="999" value="0"><br>
+                        
+                        <input type="checkbox" id="oleo" name="oleo">
+                       <label for="oleo">Óleo 900ml</label>
+                       <input class="quantidade" type="number" id="oleo_quantity" name="oleo_quantity" min="0" max="999" value="0"><br>
+                    </div>
+
                 <button class="calculaBtn" id="calcular2">Calcular</button>
                 <p id="mostrar"></p>
             </section>
@@ -31,7 +64,8 @@
                 <a href="https://www.instagram.com/unifacef/"><ion-icon class="social-links" name="logo-instagram"></ion-icon></a>
             </section>
     </div>
-    <script src="main.js"> </script>
+    <script src="calcAdd.js"> </script>
+    <script src="main.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>

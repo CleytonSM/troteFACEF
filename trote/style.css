@@ -396,3 +396,24 @@ body {
     width: 90px;
     
 }
+
+.calcadd {
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+
+
+}
+
+.divadd {
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    
+}
+
+.quantidade {
+    margin: 8px 6px;
+    width: 100px;
+    color: black;
+}
