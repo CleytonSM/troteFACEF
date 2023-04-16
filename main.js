@@ -4,17 +4,17 @@ const logo = document.getElementById('logo');
 
 if (localStorage.getItem('darkModeEnabled') === 'true') {
   html.classList.add('dark');
-  logo.src = '/trote/assets/logotrote_branco.png';
+  logo.src = 'assets/logotrote_branco.png';
 }
 
 switchBtn.addEventListener('click', () => {
   if (html.classList.contains('dark')) {
     html.classList.remove('dark');
-    logo.src = '/trote/assets/logotrote.png';
+    logo.src = 'assets/logotrote.png';
     localStorage.setItem('darkModeEnabled', 'false');
   } else {
     html.classList.add('dark');
-    logo.src = '/trote/assets/logotrote_branco.png';
+    logo.src = 'assets/logotrote_branco.png';
     localStorage.setItem('darkModeEnabled', 'true');
   }
 });

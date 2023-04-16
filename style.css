@@ -16,10 +16,10 @@ body {
 
 :root {
     --text-color: black;
-    --bg: url(/trote/assets/fundo-azul.jpg);
+    --bg: url(assets/fundo-azul.jpg);
     --bg-button: rgb(184, 194, 203);
     --bg-button-border: black;
-    --switch-bg-theme: url(/trote/assets/sol.png);
+    --switch-bg-theme: url(assets/sol.png);
     --bg-switch: rgb(184, 194, 203);
     --text-color-inferior: rgb(5, 50, 69);
     --table-border-color: rgb(5, 50, 69);
@@ -27,10 +27,10 @@ body {
 
 .dark {
     --text-color: white;
-    --bg: url(/trote/assets/fundo-preto.jpg);
+    --bg: url(assets/fundo-preto.jpg);
     --bg-button: rgb(101, 114, 112);
     --bg-button-border: white;
-    --switch-bg-theme: url(/trote/assets/lua-crescente.png);
+    --switch-bg-theme: url(assets/lua-crescente.png);
     --bg-switch: rgb(101, 114, 112);
     --text-color-inferior: rgb(151, 151, 151);
     --table-border-color: rgb(151, 151, 151);

@@ -9,22 +9,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Equipes</title>
+    <title>Calculadora</title>
 </head>
 <body>
     <div class="container">
-        <h1><img class="logo" id="logo" src="/trote/assets/logotrote.png" alt="logotrote"></h1>
+        <h1><img class="logo" id="logo" src="assets/logotrote.png" alt="logotrote"></h1>
             <section class="switch_menor">
-                <button class="botao_menor" id="botao"> </button> <a href="/trote/home.html"><button class="botao_home">Home</button></a>
-                <span> </span>
+                    <button class="botao_menor" id="botao"> </button> <a href="calculadoras.html"><button class="botao_home">Calc</button></a>
+                    <span> </span>
             </section>
-            <p class="texto_regras">Calculadoras com intuito de contabilizar os pontos feitos pelas equipes, através das doações de kits e/ou de doações extras.</p>
-            <br>
-            <section>
-                    <a href="/trote/calckits.html"><button class="calc">Calculadora de Kits</button></a>
-                    <a href="/trote/calcadicionais.html"><button class="calc">Calculadora de Extras</button></a>
-                    <p id="escreve"></p>
-                </section>
+            <section class="">
+                <p>Informe a quantidade de kits entregues pela sua equipe:</p> 
+                <input class="kits" type="number" id="kits">
+                <button class="calculaBtn" id="calcular">Calcular</button>
+                <p id="mostrar"></p>
+            </section>
             <section class="sessao_dois">
                 <a href="https://github.com/CleytonSM/troteFACEF"><ion-icon class="social-links" name="logo-github"></ion-icon></a>
                 <a href="https://www.youtube.com/@tvunifacef"><ion-icon class="social-links" name="logo-youtube"></ion-icon></a>
@@ -32,7 +31,6 @@
                 <a href="https://www.instagram.com/unifacef/"><ion-icon class="social-links" name="logo-instagram"></ion-icon></a>
             </section>
     </div>
-
     <script src="main.js"> </script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
