@@ -25,6 +25,7 @@
 | --- | --- |
 | Maria Julia Facirolli | <img src="https://avatars.githubusercontent.com/u/123916521?v=4" width=115><br>https://github.com/MajuFacirolli |
 | Cleyton Souza Martins | <img src="https://avatars.githubusercontent.com/u/122110138?v=4" width=115><br>https://github.com/CleytonSM |
+
 <br>
 <br>
 <br>
