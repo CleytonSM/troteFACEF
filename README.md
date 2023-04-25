@@ -18,7 +18,12 @@
 
 <p>O Trote Solidário é um site que oferece recursos valiosos para os usuários e promove iniciativas de responsabilidade social na área de tecnologia. Com suas calculadoras de pontos baseadas em doações e o sistema de alternância entre o light mode e o dark mode, o site é uma ferramenta útil e flexível para todos os usuários interessados em contribuir para o bem-estar da sociedade.</p>
 
-<h1 align="center" >Trote Solidário</h1>
+
+
+
+
+
+
 
 <h2>Project Description:</h2>
 
