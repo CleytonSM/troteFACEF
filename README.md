@@ -39,7 +39,7 @@
 <p>Trote Solidário is a website that offers valuable resources to users and promotes social responsibility initiatives in the technology field. With its donation-based point calculators and light mode and dark mode switching system, the site is a useful and flexible tool for all users interested in contributing to the well-being of society.</p>
 
 
-<h3>Autores | Authors</h3>
+<h3>Autores | Authors:</h3>
 
 | [<img src="https://avatars.githubusercontent.com/u/123916521?v=4" width=115><br><sub>Maria Julia Facirolli</sub>](https://github.com/MajuFacirolli) |  [<img src="https://avatars.githubusercontent.com/u/122110138?v=4" width=115><br><sub>Cleyton Souza Martins</sub>](https://github.com/CleytonSM) | 
 | :---: | :---: |
