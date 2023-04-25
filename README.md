@@ -17,8 +17,9 @@
 <h2>Conclusão:</h2>
 
 <p>O Trote Solidário é um site que oferece recursos valiosos para os usuários e promove iniciativas de responsabilidade social na área de tecnologia. Com suas calculadoras de pontos baseadas em doações e o sistema de alternância entre o light mode e o dark mode, o site é uma ferramenta útil e flexível para todos os usuários interessados em contribuir para o bem-estar da sociedade.</p>
-| [<img src="https://avatars.githubusercontent.com/u/123916521?v=4" width=115><br><sub>Maria Julia Facirolli</sub>](https://github.com/MajuFacirolli) |  [<img src="https://avatars.githubusercontent.com/u/122110138?v=4" width=115><br><sub>Cleyton Souza Martins</sub>](https://github.com/CleytonSM) | 
-| :---: | :---: |
+
+
+
 <h2>Project Description:</h2>
 
 <p>Trote Solidário is a website that was developed with the aim of assisting, integrating, and informing students, teachers, and visitors about social responsibility initiatives in the technology field. The site is designed to be user-friendly and offers valuable resources to the user, such as the option to switch between light mode and dark mode.</p>
@@ -36,3 +37,7 @@
 <h2>Conclusion:</h2>
 
 <p>Trote Solidário is a website that offers valuable resources to users and promotes social responsibility initiatives in the technology field. With its donation-based point calculators and light mode and dark mode switching system, the site is a useful and flexible tool for all users interested in contributing to the well-being of society.</p>
+
+
+| [<img src="https://avatars.githubusercontent.com/u/123916521?v=4" width=115><br><sub>Maria Julia Facirolli</sub>](https://github.com/MajuFacirolli) |  [<img src="https://avatars.githubusercontent.com/u/122110138?v=4" width=115><br><sub>Cleyton Souza Martins</sub>](https://github.com/CleytonSM) | 
+| :---: | :---: |
