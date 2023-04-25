@@ -21,8 +21,10 @@
 <br>
 <br>
 <br>
- [<img src="https://avatars.githubusercontent.com/u/123916521?v=4" width=115><br><sub>Maria Julia Facirolli</sub>](https://github.com/MajuFacirolli) |  [<img src="https://avatars.githubusercontent.com/u/122110138?v=4" width=115><br><sub>Cleyton Souza Martins</sub>](https://github.com/CleytonSM) | 
-| :---: | :---: |
+| Nome | Perfil do GitHub |
+| --- | --- |
+| Maria Julia Facirolli | <img src="https://avatars.githubusercontent.com/u/123916521?v=4" width=115><br>https://github.com/MajuFacirolli |
+| Cleyton Souza Martins | <img src="https://avatars.githubusercontent.com/u/122110138?v=4" width=115><br>https://github.com/CleytonSM |
 <br>
 <br>
 <br>
