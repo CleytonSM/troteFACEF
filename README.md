@@ -1,4 +1,4 @@
-<h1>Trote Solidário</h1>
+<h1 align="center" >Trote Solidário</h1>
 
 <h2>Descrição do projeto:</h2>
 
